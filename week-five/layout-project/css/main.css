@@ -1,0 +1,43 @@
+/* SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* Univeral selector */
+*{
+    margin: 0;
+    padding: 0;
+    /* A little difficult to explain */
+    box-sizing: border-box;
+}
+
+/* Class selector */
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    margin-top: 45px;
+}
+
+.header-text{
+    /* border: 1px solid red; */
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2, p{
+    margin-bottom: 24px;
+}
+
+
+
+ 
