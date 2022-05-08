@@ -26,6 +26,7 @@ FONT SIZE SYSTEM (px)
     grid-template-columns: repeat(2, 1fr);
     column-gap: 80px;
     margin-top: 45px;
+    margin-bottom: 96px;
 }
 
 .header-text{
@@ -51,6 +52,15 @@ h1, h2, p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 80px;
+    margin-bottom: 96px;
+}
+
+.features{
+    margin-bottom: 96px;
+}
+
+.best-sellers{
+    margin-bottom: 128px;
 }
 
 
