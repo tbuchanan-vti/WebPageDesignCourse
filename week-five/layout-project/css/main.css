@@ -18,6 +18,8 @@ body{
     font-family: 'Open Sans', sans-serif;
     color: #333333;
     font-size: 18px;
+    /* Typography - body text line height should be between 1.5 - 2 */
+    line-height: 1.5;
 }
 
 /* Class selector */
@@ -31,7 +33,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 80px;
-    margin-top: 45px;
+    margin-top: 96px;
     margin-bottom: 96px;
 }
 
@@ -43,32 +45,65 @@ img{
     width: 100%;
 }
 
-h1, h2, p{
+/* Typography - Line height for h1,h2 or h3 should be less than 1.5 */
+/* Typography - keep font weight above 500. */
+/* Typography - keep font size abouve 40px. */
+h1{
+    font-weight: 800;
+    font-size: 44px;  
+    line-height: 1.1;
     margin-bottom: 24px;
 }
 
-h1{
-    font-weight: 800;
-    font-size: 44px;
-    line-height: 1.1;
+p{
+    margin-bottom: 24px;
+}
+
+h2{
+    margin-bottom: 32px;
+}
+
+i{
+    font-size: 36px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+    padding: 18px;
+    border-radius: 50%; /* how to get a circle done. */
+    margin-bottom: 16px;
+    /* border: 1px solid #97C4B8; */
+    background-color: #97C4B8;
+}
+
+.icon-pink{
+    background-color: #F9CEEE;
+    /* border: 1px solid #97C4B8; */
+}
+
+.icon-pastey{
+    background-color: #F9F3EE;
 }
 
 .grid-3-columns{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 80px; 
-    row-gap: 40px;
+    row-gap: 48px; 
 }
 
 .testimonial-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 80px;
-    margin-bottom: 96px;
+    /* column-gap: 80px;
+    margin-bottom: 96px; */
 }
 
 .features{
-    margin-bottom: 96px;
+    /* margin-bottom: 96px; */
 }
 
 .best-sellers{
@@ -78,6 +113,24 @@ h1{
 .feature > h3,
 .best-seller > h3{
     margin-bottom: 12px;
+}
+
+.feature-section{
+    margin-bottom: 128px;
+}
+
+.btn{
+    text-decoration: none; /* removes underline from text. */
+    background-color: #97C4B8;
+    padding: 8px 32px;
+    color: #333333;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    /* display: block; */
+}
+/* Hover - pseudo class */
+.btn:hover{
+    background-color: #CCF3EE;
 }
 
 

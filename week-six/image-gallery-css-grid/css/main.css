@@ -1,0 +1,68 @@
+/* SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-size: 16px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    margin-top: 48px;
+}
+
+.header-inner{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    padding: 18px;
+    line-height: 22px;
+    height: 57px;
+    display: block;
+    margin-top: 24px;
+    border: 2px solid #333;
+    background-color: white;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.search:focus{
+    outline: none !important;
+    /* border:1px solid red; */
+    /* box-shadow: 0 0 10px #719ECE; */
+}
+
+.gallery{
+    margin: 24px 0 48px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 40px; 
+    row-gap: 20px;
+}
+
+
+.gallery-item img{
+    height: 150px;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
