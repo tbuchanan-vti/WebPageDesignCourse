@@ -1,0 +1,178 @@
+/* SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html{
+    background-color: #EFEFEF;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+}
+
+.container{
+    width: 650px;
+    margin: 0 auto;
+}
+
+.container-inner{
+    margin-top: 24px;
+}
+
+a{
+    color: #205375;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #fff;
+    background-color: #F66B0E;
+    padding: 0 2px;
+}
+
+/*
+    Reset all browser specific styles for the form
+*/
+
+button,
+input,
+select,
+textarea {
+     /* A vendor prefix is a special coded addition prepended to the 
+     property name as an identifier for a specific browser.
+     For Chrome, Safari, and recent versions of Edge and Opera, 
+    that prefix is -webkit-. Firefox uses the -moz- prefix.
+ */
+    -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+    background-color: transparent;
+    border: none;
+}
+
+input,
+select,
+textarea{
+    border: 2px solid #205375;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  /* font: 1.25rem / 1.5 sans-serif; */
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+select{
+    height: 50px;
+}
+
+textarea{
+    min-height: 160px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+select{
+    background: url(../img/dropdown.svg) no-repeat center right 0.75rem;
+    background-color: #fff;
+}
+
+select:focus{
+    border: none;
+    outline: 2px solid #F66B0E;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+input[type="radio"]{
+    border-radius: 50%;
+}
+
+
+input[type="radio"]:checked {
+  background-image: radial-gradient(
+    hsl(213, 73%, 50%) 40%,
+    transparent calc(40% + 1px)
+  );
+}
+
+input[type="checkbox"]:checked {
+    background-image: radial-gradient(
+      hsl(213, 73%, 50%) 40%,
+      transparent calc(40% + 1px)
+    );
+}
+
+input[type="checkbox"]:checked {
+  background: url(../img/checked.svg) no-repeat center / 75% auto;
+  border:none;
+  outline: 2px solid #F66B0E;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-element{
+    margin-bottom: 24px;
+}
+
+
+button {
+  font-size: 16px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  padding: 0.75rem 1.25rem;
+}
+
+button[type="submit"]{
+    background-color: #205375;
+    color: #fff;
+}
+
+button[type="submit"]:hover{
+    background-color: #112B3C;
+}
+
+form{
+    margin-top: 32px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+    outline: 2px solid #F66B0E;
+    border:none;
+}
