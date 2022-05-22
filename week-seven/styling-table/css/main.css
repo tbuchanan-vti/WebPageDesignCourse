@@ -4,33 +4,32 @@
     box-sizing: border-box;
 }
 
-body,
-html{
+body{
     background-color: #EFEFEF;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 300;
-    color: #333;
+    color: #333333;
 }
 
 h1{
     margin-bottom: 24px;
     margin-top: 24px;
+    /* margin: 24px 0; */
     font-weight: 700;
 }
 
 table{
     border-collapse: collapse;
-    /* background-color: #fff; */
     padding: 24px;
     text-align: center;
     vertical-align: middle;
-    width:100%;
-    
+    width:100%; /* Relative unit */
 }
-th, td{
+
+td{
     border-bottom: 1px solid #EFEFEF;
-    padding: 8px;
+    padding: 8px 4px; 
 }
 
 caption{
@@ -46,8 +45,8 @@ caption{
 }
 
 .match-time{
-    padding:0;
-    width:20px;
+    /* padding:0;
+    width:20px; */
 }
 
 .container{
@@ -60,6 +59,7 @@ caption{
     width: 500px;
     margin: 0 auto;
 }
+
 .club-icon{
     height: 50px;
     width: 50px;
