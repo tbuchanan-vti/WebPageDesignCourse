@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .px{
+    border: 1px solid red;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.px > p{
+    font-size: 32px;
+}
+
+.rem{
+    border: 1px solid blue;
+}
+
+.rem p{
+    font-size: 1rem;
+}
+
+.em{
+    font-size: 1em;
+} */
+
+@media screen and (max-width: 700px){
+    body{
+        background-color: aliceblue;
+    }
+
+    p{
+        font-size: 32px;
+    }
+}
+
