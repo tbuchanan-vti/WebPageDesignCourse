@@ -4,18 +4,7 @@
     box-sizing: border-box;
 }
 
-.logo{
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    vertical-align: middle;
-}
 
-.logo-centered{
-    width: 60px;
-    height: 60px;
-    margin: 24px auto;
-}
 
 body{
     color: #333333;
@@ -28,6 +17,26 @@ nav{
     padding: 8px 12px;
     height: 100px;
 }
+
+img{
+    width: 100%;
+}
+
+
+
+.logo{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-media-wrapper{
+    height: 50px;
+    background-color: #D0C9C0;
+}
+
+
 
 .navbar{
     display: flex;

@@ -1,0 +1,155 @@
+/* SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body{
+    background-color: #EFEAD8;
+    font-family: 'Rubik', sans-serif;
+    color: #614124
+}
+
+nav{
+    width: 100%;
+    padding: 8px 12px;
+    height: 100px;
+}
+img{
+    width: 100%;
+}
+
+a{
+    font-family: 'Rubik', sans-serif;
+}
+
+.social-media-wrapper{
+    background-color: #D0C9C0;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    padding: 0 8px 0 0;
+}
+
+.social-media-links,
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.social-media-item{
+    padding: 8px;
+}
+
+.social-icons{
+    color: #6D8B74;
+}
+
+.social-icons:hover{
+    color: #5F7161;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right{
+    justify-content: space-between;
+}
+
+.nav-item a{
+   display: inline-block;
+   padding: 8px 16px;
+   text-decoration: none;
+   color:#1D428A;
+   font-weight: 500;
+}
+
+.site-intro{
+    margin: 64px 0;
+    /* background-color: #5F7161; */
+    /* padding: 16px 32px; */
+    /* border: 1px solid red; */
+}
+
+.site-intro-text{
+    background-color: #5F7161;
+}
+
+.site-intro-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #EFEAD8;
+    /* column-gap: 40px; 
+    row-gap: 20px; */
+}
+
+.site-intro-image{
+    border-radius: 8px;
+}
+.site-intro-image img{
+    /* height: 400px; */
+    object-fit: cover;
+    /* border-radius: 16px; */
+
+}
+
+.section-intro{
+    text-align: center;
+    padding: 48px 0;
+}
+
+.section-intro h2,
+.section-intro h1{
+    margin: 16px 0;
+}
+
+.section-intro hr{
+    width: 80px;
+    margin: 16px auto;
+}
+
+.service-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 64px 0;
+}
+
+.service img{
+    object-fit: contain;
+}
+
+.service-text{
+    margin: 16px 0;
+}
+
+.service-text h2{
+    margin-bottom: 16px;
+}
+
+.service-numbers-list{
+    background-color: #6D8B74;
+    color: #EFEAD8;
+}
+
+.light-border{
+    border-top: 3px solid #EFEAD8;
+}
+
+.dark-border{
+    border-top: 3px solid #614124;
+}
